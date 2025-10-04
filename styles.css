@@ -1,0 +1,88 @@
+a {
+  text-decoration: none;
+  color: white !important;
+}
+
+.myplace {
+  display: flex;
+  justify-content: space-between !important;
+}
+.myplace1,
+.myplace2,
+.myplace3 {
+  height: 93px;
+  width: 65px;
+  /* border: 1px solid red; */
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: center;
+}
+.kini-pic {
+  width: 100%;
+}
+.kini-pic1 {
+  width: 100%;
+}
+.another {
+  margin: 10px 0 10px 0;
+  width: 366px;
+  height: 168px;
+  border-radius: 10px;
+  background-color: #171717;
+  display: flex;
+  padding: 0 20px;
+}
+.butt {
+  color: #171717;
+  background-color: #23f7dd;
+  border: none;
+  height: 42px;
+  width: 134px;
+  border-radius: 10px;
+}
+.down {
+  width: 108%;
+}
+.another1,
+.another2 {
+  width: 50%;
+}
+.another1 {
+  padding: 20px 0;
+}
+.another2 {
+  display: flex;
+  align-items: flex-end;
+}
+
+.login-option {
+  flex-basis: 30% !important;
+  flex-grow: 1 !important;
+  margin: 10px !important;
+}
+.ikini{
+    display: flex;
+}
+.ikeji{
+    background-color: #171717;
+    padding: 42px;
+    height: 221px;
+    width: 204px;
+    margin: 10px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.ikeji:hover{
+    background-color: #272727;
+}
+
+@media (max-width: 480px) {
+  .ikeji{
+    height: 155px;
+    width: 145px;
+    padding: 20px;
+  }
+}
